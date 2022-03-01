@@ -43,7 +43,24 @@ A window will be opened add the below command and save it
 export GAZEBO_MODEL_PATH=<Copied Output>/worlds$GAZEBO_MODEL_PATH
 ```
 
+```bash
+roscd spy
+pwd
+```
+
+Copy the output 
+
+In spy.py file change path in line 30 to
+
+```python
+'<Copied Output>/src/images/image1.png'
+```
+Change path in line 34 to
+```python
+'<Copied Output>/src/images/image2.png'
+```
 In a new terminal run the below command to launch the practice arena with husky
+
 ```bash
 roslaunch labyrinth labyrinth_husky_arena.launch 
 ```
