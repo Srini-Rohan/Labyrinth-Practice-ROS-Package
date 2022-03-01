@@ -23,6 +23,12 @@ to
 
 Clone this repository in the `src` folder of your catkin workspace.
 
+```bash
+gedit .bashrc
+# A window will be opened add the below command
+source catkin_ws/devel/setup.bash
+```
+
 Inside your workspace folder, run catkin_make.
 
 ```bash
