@@ -39,7 +39,7 @@ A window will be opened add the below command and save it
 ```bash
 export GAZEBO_MODEL_PATH=<Copied Output>/worlds$GAZEBO_MODEL_PATH
 ```
-
+In new terminal
 ```bash
 roscd spy
 pwd
