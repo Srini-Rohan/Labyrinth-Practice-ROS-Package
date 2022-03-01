@@ -1,0 +1,15 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- git: {local-name: navigation/amcl, uri: 'https://github.com/ros-gbp/navigation-release.git',
+    version: release/melodic/amcl/1.16.7-1}
+- git: {local-name: navigation/map_server, uri: 'https://github.com/ros-gbp/navigation-release.git',
+    version: release/melodic/map_server/1.16.7-1}
+- git: {local-name: navigation/move_base, uri: 'https://github.com/ros-gbp/navigation-release.git',
+    version: release/melodic/move_base/1.16.7-1}
+- git: {local-name: slam_gmapping/gmapping, uri: 'https://github.com/ros-gbp/slam_gmapping-release.git',
+    version: release/melodic/gmapping/1.4.1-1}
+- git: {local-name: teb_local_planner, uri: 'https://github.com/rst-tu-dortmund/teb_local_planner-release.git',
+    version: release/melodic/teb_local_planner/0.8.4-1}
