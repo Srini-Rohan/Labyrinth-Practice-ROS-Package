@@ -27,12 +27,17 @@ Clone this repository in the `src` folder of your catkin workspace.
 cd Labyrinth-Practice-ROS-Package
 cd <Distro Name>     
 ```
-Change <Distro Name> accordingly to melodic or noetic
+Change Distro Name accordingly to melodic or noetic
 ```bash
 rosinstall .
+```
+Inside your workspace folder, run catkin_make.
+
+```bash
 roscd labyrinth
 pwd
 ```
+
 Copy the output of the above command
 ```bash
 cd
