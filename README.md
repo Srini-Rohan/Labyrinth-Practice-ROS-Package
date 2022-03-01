@@ -10,7 +10,7 @@ This Repository contains practice package for event Labyrinth - Technex 2022.
 
 To run package in ROS Noetic do the following changes
 
-In Spy node change the below line
+In [spy.py](spy/src/spy.py) change the below line
 ```python
 #!/usr/bin/env python
 ```
@@ -55,7 +55,7 @@ pwd
 
 Copy the output 
 
-In spy.py file change path in line 30 to
+In [spy.py](spy/src/spy.py) file change path in line 30 to
 
 ```python
 '<Copied Output>/src/images/image1.png'
